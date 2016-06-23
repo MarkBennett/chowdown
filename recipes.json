@@ -1,11 +1,58 @@
----
-layout: null
----
-{% assign counter = 1 %}
-{% assign total = site.recipes | size %}
-[{% for post in site.recipes %}
+
+
+[
     {
-        "title": "{{ post.title }}",
-        "image": "images/large/{{ post.image }}"
-    }{% if counter == total %}{% else %},{% endif %}
-{% assign counter = counter |plus: 1 %}{% endfor %}]
+        "title": "Broccoli Beer Cheese Soup",
+        "image": "http://chowdown.io/images/large/broccoli-beer-cheese-soup.jpg"
+    },
+
+    {
+        "title": "Crockpot Buffalo Chicken",
+        "image": "http://chowdown.io/images/large/crockpot-buffalo-chicken.jpg"
+    },
+
+    {
+        "title": "Green Chile Stew",
+        "image": "http://chowdown.io/images/large/green-chile-stew.jpg"
+    },
+
+    {
+        "title": "Mongolian Beef",
+        "image": "http://chowdown.io/images/large/mongolian-beef.jpg"
+    },
+
+    {
+        "title": "New York Strip",
+        "image": "http://chowdown.io/images/large/new-york-strip.jpg"
+    },
+
+    {
+        "title": "One Minute Muffin",
+        "image": "http://chowdown.io/images/large/one-minute-muffin.jpg"
+    },
+
+    {
+        "title": "Pork Steaks",
+        "image": "http://chowdown.io/images/large/pork-steaks.jpg"
+    },
+
+    {
+        "title": "Red Berry Tart",
+        "image": "http://chowdown.io/images/large/red-berry-tart.jpg"
+    },
+
+    {
+        "title": "Roasted Brussels Sprouts",
+        "image": "http://chowdown.io/images/large/roasted-brussels-sprouts.jpg"
+    },
+
+    {
+        "title": "Roasted Okra",
+        "image": "http://chowdown.io/images/large/roasted-okra.jpg"
+    },
+
+    {
+        "title": "Smashed Carrots",
+        "image": "http://chowdown.io/images/large/smashed-carrots.jpg"
+    }
+]
